@@ -1,0 +1,328 @@
+@font-face{
+    font-family: "helvetica-nue";
+    src: url(font/helvetica-neu.ttf) format('ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "coolveltica-reguler";
+    src: url(font/CoolveticaRg-Regular.woff) format("woff");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "helvetica-nue";
+    src: url(font/Burtons.otf) format("otf");
+    font-weight: normal;
+}
+
+p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-text{
+    max-width: 800px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.choose-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; 
+    gap: 20px; 
+  }
+
+  .reason {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin: 20px; 
+    max-width: 300px; 
+  }
+
+
+h1{
+    font-family:"Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #cf1940;
+
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-header{
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+
+
+
+}
+
+
+
+.menu-body-content p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cf1940;
+}
+
+.menu-body-content span:last-child {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  button {
+    background-color: #cf1940; 
+    color: #ffffff; 
+    padding: 30px 40px; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 20px;
+    margin-top: 30px;
+
+  }
+  
+  button a {
+    color: #ffffff; 
+    text-decoration: none; 
+    
+  }
+  
+  button:hover {
+    background-color: #97122f; 
+  }
+
+
+.whychoose.show {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Atur durasi dan fungsi timing sesuai kebutuhan */
+}
+
+.whychoose.show.showing {
+    opacity: 1;
+}
+
+.footer {
+    background-color: #1f1f24;
+    padding: 40px 0;
+    color: #fff;
+  }
+  
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .footer-logo img {
+    max-width: 100px;
+  }
+  
+
+  .footer-social a {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  .footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+  }
+
+.menu-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .menu-body-content {
+    max-width: 300px;
+  }
+  
+  .menu-body-content img {
+    max-width: 100%; 
+    height: 250px; 
+  }
+
+
+.today-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+  }
+  
+  .today-body div {
+    text-align: center; 
+    height: 700px;
+  }
+  
+  .today-body img {
+    max-width: 100%; 
+    max-height: 100%;
+  }
+
+.about-content {
+    text-align: center;
+}
+
+.wellcome {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-top: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #EEEEEE;
+}
+
+.wellcome-text {
+    position: relative;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.wellcome-menu {
+    position: relative;
+    display: flex;
+    z-index: 0;
+}
+
+.ramen-4{
+    position: relative;
+    padding-top: 100px;
+}
+
+@media (max-width: 1650px) {
+    .wellcome {
+        flex-direction: column; 
+        padding-top: 20px; 
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .wellcome-text {
+        padding: 0 20px; 
+        text-align: center;
+    }
+
+    .wellcome-menu {
+        margin-top: 20px; 
+    }
+
+    .ramen-3, .ramen-4 {
+        width: 100%; 
+
+    }
+}
+
+
+@media (max-width: 780px) {
+
+    .logo-header {
+        font-size: 30px;
+    }
+
+    .wellcome-text {
+        text-align: center;
+    }
+
+    .wellcome-text h1 {
+        font-size: 24px; 
+    }
+
+    .wellcome-text h2 {
+        font-size: 18px; 
+    }
+
+    .wellcome-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .ramen-3, .ramen-4 {
+        max-width: 100%; 
+        height: 100%; 
+        
+    }
+
+    .choose-content {
+        display: block; 
+        text-align: center; 
+    }
+
+    .reason {
+        margin: 0 auto; 
+        max-width: 300px; 
+       
+    }
+
+    .reason img {
+        max-width: 100%; 
+        margin-top: 50px;
+    }
+
+    .today-body {
+       display: block; 
+    }
+
+    .today-body div {
+        margin: 5px 0;
+        margin: 0; 
+        padding: 0; 
+        height: 500px;
+    }
+
+    .today-body img {
+        width: 100%; 
+        max-height: 100%; 
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .menu-body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
